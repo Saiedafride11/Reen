@@ -1,0 +1,415 @@
+*{
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:1.5rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title{
+    width: 100%;
+    padding: 0px 0px 60px;
+    text-align: center;
+}
+.title h2{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #506a85;
+    margin-bottom: 10px;
+}
+.title p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #506a85;
+}
+/******************************************
+    Header Section Code Start
+*******************************************/
+.header-section{
+    width: 100%;
+}
+.header-section .header-top{
+    width: 100%;
+    padding: 10px 0px;
+    background: #f5f7fa;
+}
+.header-section .header-top .contact-info{
+    display: block;
+    margin: 0px;
+}
+.header-section .header-top .contact-info li{
+    display: inline-block;
+}
+.header-section .header-top .contact-info li a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #506a85;
+    margin-right: 10px;
+}
+.header-section .header-top .contact-info li a i{
+    margin-right: 5px;
+}
+.header-section .header-top .top-social-info{
+    display: block;
+    margin: 0px;
+    text-align: right;
+}
+.header-section .header-top .top-social-info li{
+    display: inline-block;
+}
+.header-section .header-top .top-social-info li a{
+    font-size: 13px;
+    font-weight: 600;
+    color: #506a85;
+    margin-left: 15px;
+}
+.header-section .header-top .top-social-info li a:hover{
+    color: #00bc9c;
+}
+/* main-menu */
+.main-menu{
+    width: 100%;
+    padding: 10px 0px;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #506a85;
+    margin-left: 25px;
+}
+.main-menu .navbar-nav .nav-item .nav-link .active{
+    color: #506a85;
+    font-weight: 600;
+}
+.main-menu .fa-search{
+    font-size: 14px;
+    color: #506a85;
+
+}
+/******************************************
+        Start slider Section Code
+*******************************************/
+.slider{
+    width: 100%;
+}
+.slider .container-fluid{
+    padding: 0px;
+}
+.slider .carousel-caption{
+    bottom: 30%;
+}
+.slider .carousel-caption h2{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.slider .carousel-caption p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing:1px;
+    font-weight: 400;
+    color: #a2bobe;
+}
+.slider .carousel-caption .btn-info{
+    padding: 15px 35px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.slider .carousel-caption .btn-info:hover, .slider .carousel-caption .btn-info:focus{
+    background: transparent;
+    border: 1px solid #00bc9c;
+    color: #00bc9c;
+    transition: 1s;
+}
+/******************************************
+        End slider Section Code
+*******************************************/
+
+/******************************************
+       start feature Section Code
+*******************************************/
+.feature-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature-inner{
+    width: 100%;
+}
+.feature-inner .media .media-body{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a2b0be;
+}
+.media-body h5{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #506a85;
+}
+/******************************************
+       End feature Section Code
+*******************************************/
+
+/******************************************
+       Start latest Section Code
+*******************************************/
+.latest{
+    width: 100%;
+    padding: 80px 0px;
+    background: #f2f5f7;
+}
+
+.latest .card .card-body{
+    text-align: center;
+}
+.card-title{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #506a85;
+}
+.card-text{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a2b0be;
+}
+
+.latest .owl-carousel{
+    width: 100%;
+    padding-top: 80px;
+}
+.latest .owl-carousel .item{
+    border: 1px solid #00bc9c;
+    margin-bottom: 30px;
+}
+.latest .owl-theme .owl-dots .owl-dot.active span, .latest .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c; /* main class na dile kaj korbe na (jmn-letest)*/
+}
+/******************************************
+       End latest Section Code
+*******************************************/
+
+/******************************************
+       start get-touch Code
+*******************************************/
+.get-touch{
+    width: 100%;
+    padding: 80px 0px;
+}
+.get-touch .btn-info{
+    padding: 15px 35px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.get-touch .btn-info:hover, .get-touch .btn-info.slider .carousel-caption .btn-info:focus{
+    background: transparent;
+    border: 1px solid #00bc9c;
+    color: #00bc9c;
+    transition: 1s;
+}
+/******************************************
+       End get-touch Code
+*******************************************/
+
+
+/******************************************
+       Start main-footer Code
+*******************************************/
+.main-footer{
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: #2f4052;
+}
+.widget h5{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+}
+.widget p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a2b0be;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.widget a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a2b0be;
+}
+.widget .card-group{
+    padding: 0px;
+}
+.widget .card{
+    border-radius: 0px;
+    background: transparent;
+    padding: 2px;
+}
+.widget .card .card-img-top{
+    border-radius: 0px;
+}
+
+.widget ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a2b0be;
+}
+
+.widget ul li i{
+    margin-right: 5px;
+}
+.widget .form-group{
+    width: 100%;
+    position: relative;
+}
+.widget .form-group .form-control{
+    width: 100%;
+    height: auto !important;
+    padding: 12px 10px;
+    border: 0px;
+    background: #4e5c6c;
+    color: #788591;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.widget .form-group .btn-primary{
+    position: absolute;
+    right: 4px;
+    top: 7px;
+    padding: 5px 10px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.widget .form-group .btn-primary:hover, .widget .form-group .btn-primary:focus{
+    background: transparent;
+    border: 1px solid #00bc9c;
+    color: #00bc9c;
+    transition: 1s;
+}
+/* bottom-footer */
+.bottom-footer{
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 80px;
+    background: #283645;
+}
+.bottom-footer p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a2b0be;
+}
+.bottom-footer ul{
+    text-align: right;
+}
+.bottom-footer ul li{
+    display: inline-block;
+    margin: 0px 0px 15px 0px;
+    list-style: none;
+}
+.bottom-footer ul li a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a2b0be;
+    padding: 0px 0px;
+}
+.bottom-footer ul li a i{
+    font-size: 6px;
+    margin:0px 10px;
+}
+/******************************************
+       End main-footer Code
+*******************************************/
+
+
+/******************************************
+       Start Plug in code
+*******************************************/
+.isStuck{
+    left: 0px;
+    width: 100%;
+    background: #eee;
+}
+.navbar-wrapper{
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+}
+/******************************************
+       End Plug in code
+*******************************************/
+#myBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 0px;
+    outline: none;
+    background-color: #00BC9C; 
+    color: #fff; 
+    cursor: pointer; 
+    padding: 5px 10px; 
+    border-radius: 3px;
+    font-size: 18px;
+  }
+  #myBtn i{
+      color: #fff !important;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
+  
+

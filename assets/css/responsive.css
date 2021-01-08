@@ -1,0 +1,353 @@
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .header-section .header-top .contact-info li{
+      width: 100%;
+      text-align: center;
+      display: block;
+      margin-top: 10px;
+    }
+    .header-section .header-top .contact-info li a{
+        font-size: 16px;
+    }
+
+    .header-section .header-top .top-social-info{
+        text-align: center;
+    }
+    .header-section .header-top .top-social-info li{
+        margin-top: 10px;
+    }
+    .header-section .header-top .top-social-info li a{
+        font-size: 16px;
+        margin-top: 0px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    /* main-menu */
+    .main-menu .navbar-nav .nav-item .nav-link{
+        width: 100%;
+        color: #fff;
+        background: #506a85;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 3px;
+    }
+    .main-menu .navbar-nav{
+        margin-top: 5px;
+    }
+
+    /* Slider */
+    .slider{
+        width: 100%;
+    }
+    .d-md-block {
+        display: block!important;
+    }
+    .slider .carousel-caption{
+      top: 0%;
+  }
+    .slider .carousel-caption h2{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .slider .carousel-caption p{
+        font-size: 8px;
+        line-height: 10px;
+		    margin-bottom: 10px;
+    }
+    .slider .carousel-caption .btn-info{
+        padding: 5px 20px;
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    /* feature-section */
+    .feature-section .title h2{
+      font-size: 22px;
+      line-height: 25px;
+      margin-bottom: 10px;
+  }
+    .feature-section .title p{
+      font-size: 17px;
+      line-height: 23px;
+      font-weight: 400;
+  }
+    .feature-section .media h5 {
+      font-size: 23px;
+      font-weight: 600;
+      color: #506a85;
+  }
+    .feature-section .media p{
+      font-size: 17px;
+      line-height: 23px;
+      font-weight: 500;
+      color: #506a85;
+  }
+    .feature-section .media{
+      margin-top: 10px;
+  }
+  /* latest section */
+  .latest .title h2{
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+  .latest .title p{
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+}
+  /* get-touch */
+  .get-touch{
+    padding-bottom: 0px;
+  }
+  .get-touch .title h2{
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+  .get-touch .title p{
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+  .get-touch .btn-info{
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+/* footer */
+  .main-footer{
+    text-align: center;
+    padding-top: 30px;
+  }
+  .widget h5{
+    margin-top: 50px;
+}
+  .widget p{
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #a2b0be;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  .widget a{
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #a2b0be;
+}
+  .widget a i{
+    padding-left: 7px;
+  }
+
+  .widget ul li{
+    font-size: 16px;
+}
+
+.bottom-footer{
+  padding-bottom: 0px;
+  margin-top: 70px;
+}
+.bottom-footer ul li a{
+  font-size: 12px;
+}
+.bottom-footer ul li a i{
+  font-size: 3px;
+  margin:0px 5px;
+}
+
+
+  }
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .header-section .header-top .contact-info{
+      text-align: center;
+    }
+    .header-section .header-top .contact-info li a{
+      font-size: 20px;
+  }
+    .header-section .header-top .top-social-info{
+        text-align: center;
+    }
+    .header-section .header-top .top-social-info li{
+        margin-top: 10px;
+    }
+    .header-section .header-top .top-social-info li a{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    /* main-menu */
+    .main-menu .navbar-nav .nav-item .nav-link{
+        width: 100%;
+        color: #fff;
+        background: #506a85;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 3px;
+    }
+    .main-menu .navbar-nav{
+        margin-top: 5px;
+    }
+
+    /* Slider */
+    .slider{
+        width: 100%;
+    }
+    .d-md-block {
+        display: block!important;
+    }
+    .slider .carousel-caption{
+      top: 15%;
+  }
+    .slider .carousel-caption h2{
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .slider .carousel-caption p{
+        font-size: 12px;
+        line-height: 14px;
+		    margin-bottom: 10px;
+    }
+    .slider .carousel-caption .btn-info{
+        padding: 5px 20px;
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    /* feature-section */
+    .feature-section .title h2{
+      font-size: 28px;
+      line-height: 28px;
+      margin-bottom: 10px;
+  }
+    .feature-section .title p{
+      font-size: 21px;
+      line-height: 26px;
+      font-weight: 400;
+  }
+    .feature-section .media h5 {
+      font-size: 25px;
+      font-weight: 600;
+      color: #506a85;
+  }
+    .feature-section .media p{
+      font-size: 20px;
+      line-height: 23px;
+      font-weight: 500;
+      color: #506a85;
+  }
+    .feature-section .media{
+      margin-top: 10px;
+  }
+  /* latest section */
+  .latest .title h2{
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+  .latest .title p{
+    font-size: 21px;
+      line-height: 26px;
+      font-weight: 400;
+}
+  /* get-touch */
+  .get-touch{
+    padding-bottom: 0px;
+  }
+  .get-touch .title h2{
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+  .get-touch .title p{
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+  .get-touch .btn-info{
+    padding: 12px 22px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+/* footer */
+  .main-footer{
+    text-align: center;
+    padding-top: 30px;
+  }
+  .widget h5{
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 28px;
+}
+  .widget p{
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #a2b0be;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  .widget a{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #a2b0be;
+}
+  .widget a i{
+    padding-left: 7px;
+  }
+
+  .widget ul li{
+    font-size: 20px;
+}
+.bottom-footer p{
+  font-size: 18px;
+}
+.bottom-footer{
+  padding-bottom: 0px;
+  margin-top: 50px;
+}
+.bottom-footer ul li a{
+  font-size: 16px;
+}
+.bottom-footer ul li a i{
+  font-size: 3px;
+  margin:0px 5px;
+}
+
+
+  }
+    
+  }
+  
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    //CSS
+    
+  }
+  
